@@ -37,4 +37,4 @@ These are proof goals for the future implementation.
 
 7. **End-to-end correctness.** Starting from the initial states, for every finite list `xs` of 64-bit words, `decode xs.length (encode xs) = .ok xs`. This includes the empty list and all bit patterns, including signed zeros, infinities, and every NaN payload.
 
-Possible follow-up work: Chimp128 and byte-for-byte compatibility with the authors' Java implementation, including framing and padding.
+
